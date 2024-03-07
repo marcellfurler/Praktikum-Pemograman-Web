@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marcell's Form</title>
+    <link rel="stylesheet" href="">
+</head>
+<body>
+    <form action="#">
+        <input type="text" minlength="3" maxlength="20" required placeholder="Masukan Nama">
+        <input type="submit" name="sumbit" id="sumbit"><br>
+        <label for="Hobi">Hobby: </label>
+            <input type="checkbox" name="Hobi" id="Hobi">Menyanyi
+            <input type="checkbox" name="Hobi" id="Hobi">Bermain
+            <input type="checkbox" name="Hobi" id="Hobi">Menulis Lagu
+            <br>
+        <label for="date">Tanggal: </label>
+        <input type="date" min="" >
+        <input type="submit" name="sumbitDate" id="sumbitDate">
+        <br>
+
+        <label for="input_file">Upload your file: </label><br>
+        <input type="file" accept=".pdf">
+        <br><br>
+
+
+        <label for="email">Masukan Email Anda : </label><br>
+        <input type="email" minlength="3" maxlength="20" required placeholder="Masukan Email anda">
+        
+        <input type="submit" name="sumbitEmail" >
+        <br>
+        <label for="Nomor">Nomor HP: </label><br>
+        <input type="number" min="11" placeholder="Masukan Nomor Hp "> 
+        <input type="submit" name="sumbitNomor" id="sumbitNomor">
+        <br>
+        <label for="pass"> Masukan  Password : </label><br>
+        <input type="password" name="Pass" id="pass" min="3" placeholder="Masukan Password">
+        <input type="submit" name="Pass" id="Pass">
+        <br>
+        <label for="radiobut">Jenis Kelamin : </label><br>
+        <input type="radio" name="Jenis Kelamin"><label for="Laki">Laki-Laki</label>
+        <input type="radio" name="Jenis Kelamin"><label for="Perem">Perempuan</label>
+        <input type="submit" name="Jenis Kelamin" id="Jenis Kelamin">
+
+        <br>
+        <input type="hidden" name="hidden" id="1">
+
+
+        <input type="submit" id="sumbit all" name="sumbit all">
+        <input type="reset" name="sumbit_reset" id="sumbit_reset">
+
+    </form>
+</body>
+</html>

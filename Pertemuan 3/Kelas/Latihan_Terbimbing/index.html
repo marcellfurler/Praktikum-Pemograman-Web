@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pendataan Buku</title>
+</head>
+<body>
+    <header>
+        <img src="https://wp-data-ukdw.s3.ap-southeast-1.amazonaws.com/wp-content/uploads/2017/10/10123837/fti-ukdw.png" alt="Logo FTI UKDW" width="100px">
+        <span>Fakultas Teknologi Informasi UKDW</span>
+    </header>
+
+    <main>
+        <h1>Pendataan Buku UKDW</h1>
+        <form action="summary.html" method="post">
+            <div>
+                <label>No. Buku</label>
+                <input disabled value="900001">
+            </div>
+            <br>
+            <div>
+                <label>Judul Buku</label>
+                <input type="text">
+            </div>
+
+            <div>
+                <label>Kategori Buku</label>
+                <input type="radio" name="kategori" id="kategori" value="1">Novel
+                <input type="radio" name="kategori" id="kategori" value="2">Ilmiah
+                <input type="radio" name="kategori" id="kategori" value="3">Fiksi
+                <input type="radio" name="genre" id="genre" value="4">Horror
+                <input type="radio" name="genre" id="genre" value="5">pelet
+            </div>
+
+            <div>
+                <label>Genre Buku</label>
+                <input type="checkbox" name="genre" id="genre" value="1">Fiksi
+                <input type="checkbox" name="genre" id="genre" value="2">Fantasy
+                <input type="checkbox" name="genre" id="genre" value="3">Mistery
+                <input type="checkbox" name="genre" id="genre" value="4">Horror
+
+            </div>
+
+            <div>
+                <label>Penerbit</label>
+                <select name="penerbit">
+                    <option value="0">--PILIH PENERBIT--</option>
+                    <option value="1">PT. Gramedista</option>
+                    <option value="2">PT. CetakBook</option>
+                    <option value="3">PT. AnjayEstafet</option>
+                    <option value="4">PT. BukuKu</option>
+                </select>
+            </div>
+
+            <div>
+                <label>File Gambar</label>
+                <input type="file" name="gambar" id="gambar">
+            </div>
+
+            <div>
+                <label>Sinopsis</label>
+                <textarea name="sinopsis" id="sinopsis" cols="30" rows="10"></textarea>
+            </div>
+
+            <div>
+                <label>Tanggal Beli</label>
+                <input type="date" name="tgl" id="tgl">
+            </div>
+
+            <div>
+                <label>Jumlah Pembeli</label>
+                <input type="number" name="jumlah" id="jumlah">
+            </div>
+
+
+            <div>
+                <input type="submit" value="Simpan">
+                <input type="submit" value="Reset">
+            </div>
+
+        </form>
+
+    </main>
+
+</body>
+</html>

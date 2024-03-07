@@ -1,0 +1,23 @@
+body{
+    background-color: yellow;
+}
+h1{
+    color: blue;
+}
+
+table{
+    border: 5px dashed green; 
+}
+
+#sinopsisId{
+    border: 5px solid blue;
+    padding: 10px;
+    background: red;
+    background-clip: content-box;
+    text-align: center;
+}
+
+#sinopsisId #parkHoon{
+    border: 5px solid blue;
+    background: red;
+}

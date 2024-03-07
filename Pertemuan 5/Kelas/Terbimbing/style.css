@@ -1,0 +1,40 @@
+html{
+    background-color: #c7caff;
+}
+
+body{
+    width: 50%;
+    margin-left: 25%;
+    border: #fafabe solid 7px;
+    padding:5px ;
+    background-color: #f6c2f3;
+}
+
+h1, h2{
+    text-align: center;
+}
+
+main h2{
+    color: #ffadad;
+}
+
+header p{
+    text-indent: 20px; /*untuk kasih kaya tab pada awal kalimat*/
+}
+
+div > p{
+    text-align: right;
+}
+
+table{
+    width: 100%;
+    border: solid white;
+    /* border-collapse: collapse; */ /*untuk hapus garis seperti double */
+}
+
+th{
+    background-color: yellow;
+}
+tr:nth-child(even){
+    background-color: bisque;
+}

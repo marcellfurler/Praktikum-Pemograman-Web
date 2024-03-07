@@ -1,0 +1,39 @@
+/* /* /* div main p{
+    color: blue;
+}
+
+div main span{
+    font-size:50px;
+}
+
+div > p{
+    color: red;
+} */
+
+/* div p #nama{
+    font-size: larger;
+} */ */
+
+/* p{
+    color: green;
+    font-weight: bold;
+}
+
+p.ungu{
+    color: purple;
+}
+
+.biru{
+    color: blue;
+}
+
+#merah{
+    color: red;
+} */
+
+
+
+.alkitab{
+    border: 1px solid;
+    padding: 10px;
+}

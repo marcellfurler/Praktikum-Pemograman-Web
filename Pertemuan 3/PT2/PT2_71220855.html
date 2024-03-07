@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div>
+            <center>
+                <h1>Pendaftaran Calon Legislatif DPR RI</h1>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/e/e6/DPR_RI_insignia.png" alt="Logo DPR RI"  width="100"
+            </center>
+        </div>
+    </header>
+    
+
+    
+        
+    <form>
+    <table>
+        
+        <td>
+            <fieldset>
+                
+                <legend>Informasi Personal</legend>
+                
+                    <div>
+                        <label for="fullName" minlength="3" maxlength="20" required >Nama Lengkap: </label> 
+                        <input type="text">
+                    </div>
+        
+                    
+        
+                    <div>
+                        <label >Tanggal Lahir: </label>
+                        <input type="date">
+                    </div>
+        
+                    
+        
+                    <div>
+                        <label for="alamat">Alamat: </label>
+                        <textarea name="alamat" id="alamat" cols="30" rows="10"></textarea>
+                    </div>
+        
+                    
+        
+                    <div>
+                        <label for="jenisKelamin">Jenis Kelamin: </label>
+                        <input type="radio" name="laki-laki">Laki-laki
+                        <input type="radio" name="laki-laki">Perempuan
+                    </div>
+        
+                    
+                        
+                    <div>
+                        <label for="agama">Agama: </label>
+                        <select name="agama" id="agama">
+                            <option value="0">Pilih Agama</option>
+                            <option value="1">Islam</option>
+                            <option value="2">Kristen</option>
+                            <option value="3">Hindu</option>
+                            <option value="4">Buddha</option>
+                            <option value="5">Konghucu</option>
+                            <option value="6">Katolik</option>
+                        </select>
+                    </div>
+                    <br>
+                    
+                    
+            
+                
+
+            
+        </td>
+
+        <td>
+`           <fieldset>
+    <legend>Lainnya</legend>
+        
+
+        <div>
+            <label for="email">Email: </label><br>
+            <input type="email">
+        </div>
+        <br>
+        <div>
+            <label for="password">Password: </label><br>
+            <input type="password" >
+        </div>
+        <br>
+        <div>
+            <label for="pilkom">Pilihan Komisi: </label><br>
+            <input type="checkbox" name="komisi">Komisi I
+            <input type="checkbox" name="komisi">Komisi II
+            <input type="checkbox" name="komisi">Komisi III
+        </div>
+
+
+        
+    </fieldset>
+            
+            
+        
+
+
+
+    </table>
+    <div>
+        <br>
+        <input type="submit" value="Simpan">
+        <input type="reset" value="Reset">
+    </div>
+        </td>
+</form>
+   
+
+    
+</body>
+</html>
